@@ -1,0 +1,21 @@
+create database products;
+use products;
+CREATE TABLE `product_list` (
+  `product_id` varchar(10) NOT NULL,
+  `product_name` varchar(20) DEFAULT NULL,
+  `product_price` varchar(10) DEFAULT NULL,
+  `product_quantity` varchar(5) DEFAULT NULL,
+  `product_description` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`product_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+CREATE TABLE `orderlist` (
+  `orderId` varchar(10) NOT NULL,
+  `username` varchar(30) DEFAULT NULL,
+  `email` varchar(50) DEFAULT NULL,
+  `total` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`orderId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+INSERT INTO `product_list` VALUES ('1','python','25','1','By taking this course you will learn python in depth and start your jorney in Ai'),('2','java','25','1','Java is everywhere .If you want to build app then this course is for your '),('3','nodejs','23','1','  if you want to build your know apps like netflix uber then this course is for you'),('4','React ','45','1','React is the most powerful tool in frontend development '),('4545','Ruby','45','1','this course will help you to understand how to build you know app in ruby '),('58','C++','5','1','C++ is the most powfull language and if you want to learn it an easy way then this course is for you'),('585','Golang ','5','1','Golang is one the of the best language for server side development ');
