@@ -1,0 +1,16 @@
+.cards {
+    
+    margin: 70px 70px;
+    max-height: 50%;
+    max-width: 500px;
+    display: inline-block; 
+    
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(108, 195, 206, 0.589), 0 6px 20px 0 rgba(60, 172, 144, 0.19);
+   
+    
+}
+.fav {
+    top:0;
+    right:0;
+}

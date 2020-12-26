@@ -1,0 +1,49 @@
+
+.authBoxExpanded {
+    width: 784px;
+}
+.authBox-hW6HRx {
+    width: 500px;
+    padding: 32px;
+    margin-top: 25%;
+    margin-left: 35%;
+    font-size: 18px;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color:rgb(54,57,63) ;
+}
+
+.input{
+    width : 400px;
+    margin-top: 15%;
+    padding-top: 12px;
+}
+.button {
+    margin-top: 5%;
+    padding: 15px;
+    width: 400px;
+    border-radius: 12px;
+    background-color:rgb(114,137,218)
+}
+.login {
+    width: 500px;
+    padding: 50px;
+    margin-top: 15%;
+    margin-left:35%;
+    margin-bottom: 60%;
+    font-size: 18px;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color:rgb(54,57,63) ;
+
+}
+
+.error  {
+    color : red;
+}

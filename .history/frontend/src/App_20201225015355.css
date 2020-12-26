@@ -1,0 +1,17 @@
+
+.n{
+    background-color: yellow;
+}
+.b{
+    margin: auto 10px;
+    width: auto;
+    height: 2000px;
+    color: rgb(14, 14, 2);
+}
+.cart {
+    top:0px;
+    margin-right: 10px;
+    width: 100px;
+    height: 700px;
+    background-color: rgb(77, 48, 13);
+}
