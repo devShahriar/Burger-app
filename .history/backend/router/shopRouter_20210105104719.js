@@ -84,7 +84,7 @@ router.post('/register' ,  (req, res, next) => {
   const u = 'user'
   console.log(n);
   try {
-    const result = db.regUser(id,n,e,p,phone,u)
+    const result = db.regUser(id,n,e,p,phone)
       result.then(r => {
           res.json({res:'success'})
       })

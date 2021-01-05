@@ -28,10 +28,8 @@ module.exports = class Products {
   }
 
   static regUser(id , n , e, p, phone,u) {
-    return db.execute("insert into login (id,name,email,password,role) values (?,?,?,?,?)",[id,n,e,p,u])
-
-   
-    
+    db.execute("insert into login (id,name,email,password,role) values (?,?,?,?,?)",[id,n,e,p,u])
+    return db.execute("insert into userinfo (id,name,email,password,phone) values(?,?,?,?,?)", [id,n,e,p,phone])
       
   }
   }
